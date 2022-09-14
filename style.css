@@ -44,9 +44,7 @@ input:active {
   background-color: #cccccf;
   outline: none;
 }
-input:hover {
-  background-color: #cccccf;
-}
+
 #screen {
   height: 100px;
   width: 100px;
