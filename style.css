@@ -1,74 +1,78 @@
-html,body{
-    background: #CCCCCC;
 
+html,
+body {
+  background: #cccccc;
 }
 #calc-main {
-height: 600px;
-background: #CCCCCC;
-display: flex;
-align-items: center;
+  height: 600px;
+  background: #cccccc;
+  display: flex;
+  align-items: center;
 
-justify-content: center;
-
+  justify-content: center;
 }
-#box{
-    height: fit-content;
-    align-items: center;
+#box {
+  height: fit-content;
+  align-items: center;
 
-justify-content: center;
+  justify-content: center;
 }
-#calc-frame{
-
-    /*padding-top: 100px;
+#calc-frame {
+  /*padding-top: 100px;
     */
-background-color: #FFFF00;
-width: 500px;
-height: 500px;
+  background-color: #ffff00;
+  width: 500px;
+  height: 500px;
 }
-table,tr,td{
+table,
+tr,
+td {
   border: 1px solid;
   height: 118px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
-input{
-    height: 100%;
-    width: 100%;
-    border-radius:12px;
+input {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
 
-    font-size: 32pt;
+  font-size: 32pt;
 }
-#screen{
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    vertical-align: center;
-    justify-content: center;
+input:active {
+  background-color: #cccccf;
+  outline: none;
+}
+input:hover {
+  background-color: #cccccf;
+}
+#screen {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: center;
+  justify-content: center;
 }
 
-#header{
-    text-align: center;
-    color: rgba(19, 46, 143, 0.853);
-    /*
+#header {
+  text-align: center;
+  color: rgba(19, 46, 143, 0.853);
+  /*
 
     font-size: 44pt;
     padding-left: 300px;
 
    */
-
 }
-#screen{
-    text-align: center;
-    display: grid;
-    margin: auto;
-   
-   
+#screen {
+  text-align: center;
+  display: grid;
+  margin: auto;
 }
-.display{
-    height: 80px;
-    width: 500px;
+.display {
+  height: 80px;
+  width: 500px;
 
-    text-align: right;
+  text-align: right;
 }
-
